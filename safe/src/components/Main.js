@@ -4,6 +4,7 @@ import Map from './Map';
 import CardNews from './CardNews';
 import { LocalContext } from '../context/localContext';
 import cardNewsData from '../data/cardNews.json';
+import Slider from './Sliders';
 import '../styles/Main.css'
 
 function Main() {
@@ -12,7 +13,8 @@ function Main() {
     return (
         <>
             <Header />
-            <h1 className='main--title'>{localContext.local} 안전사고 지도</h1>
+            <Slider />
+            <h1 className='main--title'>{localContext.local} 안전사고 지도</h1> 
             <Map />
             <h1 className='main--title'>{localContext.local} 안전 카드뉴스</h1>
             <div className='cardNews--div'>
