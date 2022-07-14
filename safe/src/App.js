@@ -1,23 +1,23 @@
-<<<<<<< HEAD
 import './App.css';
-import Header from './components/Header';
 import React from 'react'
-=======
-import React from 'react'
-import './App.css';
-import Header from './components/Header';
-import Map from './components/Map';
->>>>>>> db76aa31815844bc888c0c8fd58cca3c802c5921
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import Main from './components/Main';
+import { useLocalContext } from './hooks/useLocalContext';
+import { LocalContext } from './context/localContext';
 
 function App() {
+  const localContext = useLocalContext();
+
   return (
-    <div className="App">
-<<<<<<< HEAD
-      <Header/>
-=======
-      <Map />
->>>>>>> db76aa31815844bc888c0c8fd58cca3c802c5921
-    </div>
+    <LocalContext.Provider value={{ ...localContext }}>
+      <div className="App">
+        <BrowserRouter>
+          <Routes>
+            <Route path='/' element={<Main />} />
+          </Routes>
+        </BrowserRouter>
+      </div>
+    </LocalContext.Provider>
   );
 }
 
