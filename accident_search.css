@@ -1,0 +1,57 @@
+body{
+   font-family: 'Noto Sans KR';
+   justify-content: center;
+}
+.article{
+   align-items: center;
+   flex-direction: column;
+   width: 100%;
+   display: flex;
+   justify-content: center;
+   gap: 32px;
+}
+
+.bgimg{
+   width: 900px;
+   height: 400px;
+   display: flex;
+   background-image: url(/image\ 10.svg);
+   background-repeat: no-repeat;
+   border-radius: 32px;
+   font-size: 96px;
+   font-weight: bold;
+   align-items: center;
+   justify-content: center;
+   color: #fff;
+}
+
+.how{
+   gap: 32px;
+   border-radius: 32px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   width: 836px;
+   padding: 32px;
+   font-size: 48px;
+   font-weight: bold;
+   background-color: #E7F8E8;
+}
+
+.link_wrap{
+   display: flex;
+   flex-direction: row;
+   gap: 16px;
+}
+
+.link{
+   font-size: 24px;
+   padding: 16px 32px;
+   background-color: #fff;
+   border-radius: 1000px;
+}
+
+img{
+   width: 836px;
+}
