@@ -1,0 +1,66 @@
+body{
+   font-family: 'Noto Sans KR';
+   font-weight: bold;
+   text-align: center;
+}
+.title{
+   font-size: 64px;
+   display: inline-block;
+   margin: 0 auto;
+}
+.title img{
+   width: 50px;
+   object-position: center top;
+   object-fit: contain;
+   margin-left: 10px;
+   margin-right: 25px;
+}
+
+.graph_wrap{
+   width: 1440px;
+}
+
+.graph_wrap{
+   padding: 40px;
+}
+
+.graph_wrap .col{
+   display: flex;
+   flex-direction: row;
+   gap: 16px;
+   margin-bottom: 32px;
+}
+
+.graph_wrap .col .bar{
+   background-color: #60CF65;
+   display: flex;
+   height: 64px;
+   border-radius: 32px;
+}
+
+.graph_wrap :nth-child(1) .bar{
+   width: 1000px;
+}
+
+.graph_wrap :nth-child(2) .bar{
+   width: 700px;
+}
+
+.graph_wrap :nth-child(3) .bar{
+   width: 500px;
+}
+
+.graph_wrap :nth-child(4) .bar{
+   width: 400px;
+}
+
+.graph_wrap :nth-child(5) .bar{
+   width: 200px;
+}
+
+.acdnt{
+   margin-top: 5px;
+   display: flex;
+   font-size: 35px;
+   font-weight: bold;
+}
