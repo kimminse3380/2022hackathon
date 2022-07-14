@@ -34,6 +34,7 @@ body {
 }
 
 .graph_wrap .col .bar {
+   z-index: 1;
    background-color: #60CF65;
    display: flex;
    height: 64px;
@@ -42,22 +43,27 @@ body {
 
 .graph_wrap :nth-child(1) .bar {
    width: 1000px;
+   opacity: 100%;
 }
 
 .graph_wrap :nth-child(2) .bar {
    width: 700px;
+   opacity: 80%;
 }
 
 .graph_wrap :nth-child(3) .bar {
    width: 500px;
+   opacity: 60%;
 }
 
 .graph_wrap :nth-child(4) .bar {
    width: 400px;
+   opacity: 40%;
 }
 
 .graph_wrap :nth-child(5) .bar {
    width: 200px;
+   opacity: 30%;
 }
 
 .acdnt {
@@ -68,6 +74,7 @@ body {
 }
 
 .city_wrap {
+   z-index: 5;
    flex-wrap: wrap;
    padding: 16px;
    gap: 8px;
