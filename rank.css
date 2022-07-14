@@ -1,14 +1,16 @@
-body{
+body {
    font-family: 'Noto Sans KR';
    font-weight: bold;
    text-align: center;
 }
-.title{
+
+.title {
    font-size: 64px;
    display: inline-block;
    margin: 0 auto;
 }
-.title img{
+
+.title img {
    width: 50px;
    object-position: center top;
    object-fit: contain;
@@ -16,56 +18,56 @@ body{
    margin-right: 25px;
 }
 
-.graph_wrap{
+.graph_wrap {
    width: 1440px;
 }
 
-.graph_wrap{
+.graph_wrap {
    padding: 40px;
 }
 
-.graph_wrap .col{
+.graph_wrap .col {
    display: flex;
    flex-direction: row;
    gap: 16px;
    margin-bottom: 32px;
 }
 
-.graph_wrap .col .bar{
+.graph_wrap .col .bar {
    background-color: #60CF65;
    display: flex;
    height: 64px;
    border-radius: 32px;
 }
 
-.graph_wrap :nth-child(1) .bar{
+.graph_wrap :nth-child(1) .bar {
    width: 1000px;
 }
 
-.graph_wrap :nth-child(2) .bar{
+.graph_wrap :nth-child(2) .bar {
    width: 700px;
 }
 
-.graph_wrap :nth-child(3) .bar{
+.graph_wrap :nth-child(3) .bar {
    width: 500px;
 }
 
-.graph_wrap :nth-child(4) .bar{
+.graph_wrap :nth-child(4) .bar {
    width: 400px;
 }
 
-.graph_wrap :nth-child(5) .bar{
+.graph_wrap :nth-child(5) .bar {
    width: 200px;
 }
 
-.acdnt{
+.acdnt {
    margin-top: 5px;
    display: flex;
    font-size: 35px;
    font-weight: bold;
 }
 
-.city_wrap{
+.city_wrap {
    flex-wrap: wrap;
    padding: 16px;
    gap: 8px;
@@ -82,7 +84,8 @@ body{
    border-radius: 32px;
    backdrop-filter: blur(5px);
 }
-.city{
+
+.city {
    background-color: #fff;
    border-radius: 50px;
    height: 36px;
