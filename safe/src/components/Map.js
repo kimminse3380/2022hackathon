@@ -9,8 +9,8 @@ export default function Map() {
 
     return (
         <div id='myMap' style={{
-            width: '100vw',
-            height: '100vh'
+            width: '1300px',
+            height: '600px'
         }}></div>
     );
 }
