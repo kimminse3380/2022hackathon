@@ -4,8 +4,10 @@ import Slide from './Slide';
 import img1 from './1.png';
 import img2 from './2.png';
 import img3 from './3.png';
+import img4 from './5.png';
+import img5 from './7.png';
 
-const TOTAL_SLIDES = 4; // 전체 슬라이드 개수(총3개. 배열로 계산)
+const TOTAL_SLIDES = 3; // 전체 슬라이드 개수(총3개. 배열로 계산)
 
 export default function Slider() {
   const [currentSlide, setCurrentSlide] = useState(0);
@@ -42,6 +44,8 @@ export default function Slider() {
         <Slide img={img1} />
         <Slide img={img2} />
         <Slide img={img3} />
+        <Slide img={img4} />
+        {/* <Slide img={img5} /> */}
       </SliderContainer>
       <Center>
         <Button onClick={PrevSlide}>Prev</Button>
