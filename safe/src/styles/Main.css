@@ -1,0 +1,16 @@
+.cardNews--div{
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 400px 400px;
+    grid-gap: 20px;
+}
+
+/* .cardNews--div:nth-child(1), .cardNews--div:nth-child(3), .cardNews--div:nth-child(5){
+    margin: 0 auto;
+    margin-right: 20px;
+}
+
+.cardNews--div:nth-child(2), .cardNews--div:nth-child(4), .cardNews--div:nth-child(6){
+    margin: 0 auto;
+    margin-left: 20px;
+} */
