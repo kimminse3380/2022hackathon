@@ -1,37 +1,37 @@
 [
     {
         "id": 1,
-        "img": "cardNews1.png",
+        "img": "./cardNews1.png",
         "link": "https://m.post.naver.com/viewer/postView.naver?volumeNo=33568177&memberNo=2501803",
         "name": "필수 안전 체크리스트"
     },
     {
         "id": 2,
-        "img": "cardNews3.png",
+        "img": "./cardNews3.png",
         "link": "https://www.imsil.go.kr/agri/board/view.imsil?boardId=BBS_0000077&menuCd=DOM_000000604009000000&paging=ok&startPage=1&dataSid=83287",
         "name": "다 알아도 다시 한번"
     },
     {
         "id": 3,
-        "img": "cardNews2.png",
+        "img": "./cardNews2.png",
         "link": "https://blog.naver.com/mojjustice/222360171789",
         "name": "우리 아이가 학교안전사고로 다쳤다면?"
     },
     {
         "id": 4,
-        "img": "cardNews4.png",
+        "img": "./cardNews4.png",
         "link": "https://www.mois.go.kr/frt/bbs/type002/commonSelectBoardArticle.do?bbsId=BBSMSTR_000000000205&nttId=93012",
         "name": "재난 현장 골든타임 확보"
     },
     {
         "id": 5,
-        "img": "cardNews5.png",
+        "img": "./cardNews5.png",
         "link": "https://www.mois.go.kr/frt/bbs/type002/commonSelectBoardArticle.do?bbsId=BBSMSTR_000000000205&nttId=92840",
         "name": "호우·강풍 이렇게 대처하세요!"
     },
     {
         "id": 6,
-        "img": "cardNews6.png",
+        "img": "./cardNews6.png",
         "link": "https://www.policetv.co.kr/news/articleView.html?idxno=36541",
         "name": "부산 사하구 감천동서 교통사망 사고발생…1명 사망·1명 경상 병원 후송"
     }

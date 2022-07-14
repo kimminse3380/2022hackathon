@@ -12,9 +12,9 @@ function Main() {
     return (
         <>
             <Header />
-            <h1 className=''>{localContext.local} 안전사고 지도</h1>
+            <h1 className='main--title'>{localContext.local} 안전사고 지도</h1>
             <Map />
-            <h1 className=''>{localContext.local} 안전 카드뉴스</h1>
+            <h1 className='main--title'>{localContext.local} 안전 카드뉴스</h1>
             <div className='cardNews--div'>
             {
                 cardNewsData.map((item)=>{

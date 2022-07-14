@@ -1,5 +1,7 @@
 .cardNews--div{
-    margin: 0 auto;
+    justify-content: center;
+    /* margin: 0 auto; */
+    text-align: center;
     display: grid;
     grid-template-columns: 400px 400px;
     grid-gap: 20px;
@@ -14,3 +16,9 @@
     margin: 0 auto;
     margin-left: 20px;
 } */
+
+.main--title{
+    font-family: 'Noto Sans KR';
+   font-weight: bold;
+   text-align: center;
+}
